@@ -1,0 +1,10 @@
+.page {
+  background: rgb(87, 87, 87);
+}
+.page h1 {
+  color: teal;
+}
+
+.text {
+  text-transform: capitalize;
+}

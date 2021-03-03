@@ -1,0 +1,33 @@
+.page {
+    width: 90%;
+    max-width: 1280px;
+    text-transform: capitalize;
+    margin: 0 auto;
+}
+
+.page span {
+    margin-left: 2rem;
+    color: #333;
+}
+
+.page article {
+    margin: 2rem 0;
+}
+
+.product-image div {
+    height: 15rem;
+}
+
+@media screen and (min-width: 768px) {
+    .page {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 2rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .page {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
